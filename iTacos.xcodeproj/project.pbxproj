@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113F300729FDA009002EA7C5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F300629FDA009002EA7C5 /* Tests_iOS.swift */; };
+		113F300929FDA009002EA7C5 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F300829FDA009002EA7C5 /* Tests_iOSLaunchTests.swift */; };
+		113F301329FDA009002EA7C5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F301229FDA009002EA7C5 /* Tests_macOS.swift */; };
+		113F301529FDA009002EA7C5 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F301429FDA009002EA7C5 /* Tests_macOSLaunchTests.swift */; };
+		113F301629FDA009002EA7C5 /* iTacosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */; };
+		113F301729FDA009002EA7C5 /* iTacosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */; };
+		113F301829FDA009002EA7C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F2FEF29FDA008002EA7C5 /* ContentView.swift */; };
+		113F301929FDA009002EA7C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F2FEF29FDA008002EA7C5 /* ContentView.swift */; };
+		113F301A29FDA009002EA7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113F2FF029FDA008002EA7C5 /* Assets.xcassets */; };
+		113F301B29FDA009002EA7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113F2FF029FDA008002EA7C5 /* Assets.xcassets */; };
+		113F302B29FDA2C3002EA7C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 113F302A29FDA2C3002EA7C5 /* GoogleService-Info.plist */; };
+		11C2C12D2A04548D0026BA28 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C12C2A04548D0026BA28 /* Home.swift */; };
+		11C2C12E2A04548D0026BA28 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C12C2A04548D0026BA28 /* Home.swift */; };
+		11C2C1332A04597B0026BA28 /* testtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1322A04597B0026BA28 /* testtest.swift */; };
+		11C2C1342A04597B0026BA28 /* testtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1322A04597B0026BA28 /* testtest.swift */; };
+		11C2C1362A0459F30026BA28 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1352A0459F30026BA28 /* Drink.swift */; };
+		11C2C1372A0459F30026BA28 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1352A0459F30026BA28 /* Drink.swift */; };
+		11C2C1392A045A3D0026BA28 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C2C1382A045A3D0026BA28 /* menu.json */; };
+		11C2C13A2A045A3D0026BA28 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C2C1382A045A3D0026BA28 /* menu.json */; };
+		11C2C13C2A12A5080026BA28 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C13B2A12A5080026BA28 /* DrinkRow.swift */; };
+		11C2C13D2A12A5080026BA28 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C13B2A12A5080026BA28 /* DrinkRow.swift */; };
+		11C2C1422A12A69D0026BA28 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1412A12A69D0026BA28 /* DrinkDetail.swift */; };
+		11C2C1432A12A69D0026BA28 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1412A12A69D0026BA28 /* DrinkDetail.swift */; };
+		11C2C1452A12A7130026BA28 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1442A12A7130026BA28 /* DrinkItem.swift */; };
+		11C2C1462A12A7130026BA28 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1442A12A7130026BA28 /* DrinkItem.swift */; };
+		11C2C1482A12A79C0026BA28 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1472A12A79C0026BA28 /* Data.swift */; };
+		11C2C1492A12A79C0026BA28 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1472A12A79C0026BA28 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113F300329FDA009002EA7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113F2FE929FDA007002EA7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113F2FF429FDA008002EA7C5;
+			remoteInfo = "iTacos (iOS)";
+		};
+		113F300F29FDA009002EA7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113F2FE929FDA007002EA7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113F2FFA29FDA008002EA7C5;
+			remoteInfo = "iTacos (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTacosApp.swift; sourceTree = "<group>"; };
+		113F2FEF29FDA008002EA7C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		113F2FF029FDA008002EA7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		113F2FF529FDA008002EA7C5 /* iTacos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTacos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113F2FFB29FDA008002EA7C5 /* iTacos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTacos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113F2FFD29FDA008002EA7C5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		113F300229FDA009002EA7C5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		113F300629FDA009002EA7C5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		113F300829FDA009002EA7C5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		113F300E29FDA009002EA7C5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		113F301229FDA009002EA7C5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		113F301429FDA009002EA7C5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		113F302A29FDA2C3002EA7C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11C2C12C2A04548D0026BA28 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = ../Home.swift; sourceTree = "<group>"; };
+		11C2C1322A04597B0026BA28 /* testtest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testtest.swift; sourceTree = "<group>"; };
+		11C2C1352A0459F30026BA28 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		11C2C1382A045A3D0026BA28 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = SOURCE_ROOT; };
+		11C2C13B2A12A5080026BA28 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		11C2C1412A12A69D0026BA28 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
+		11C2C1442A12A7130026BA28 /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		11C2C1472A12A79C0026BA28 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113F2FF229FDA008002EA7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F2FF829FDA008002EA7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F2FFF29FDA009002EA7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F300B29FDA009002EA7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113F2FE829FDA007002EA7C5 = {
+			isa = PBXGroup;
+			children = (
+				113F2FED29FDA008002EA7C5 /* Shared */,
+				113F2FFC29FDA008002EA7C5 /* macOS */,
+				113F300529FDA009002EA7C5 /* Tests iOS */,
+				113F301129FDA009002EA7C5 /* Tests macOS */,
+				113F2FF629FDA008002EA7C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		113F2FED29FDA008002EA7C5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				113F302A29FDA2C3002EA7C5 /* GoogleService-Info.plist */,
+				113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */,
+				113F2FEF29FDA008002EA7C5 /* ContentView.swift */,
+				11C2C12C2A04548D0026BA28 /* Home.swift */,
+				11C2C1322A04597B0026BA28 /* testtest.swift */,
+				11C2C13B2A12A5080026BA28 /* DrinkRow.swift */,
+				11C2C1472A12A79C0026BA28 /* Data.swift */,
+				11C2C1442A12A7130026BA28 /* DrinkItem.swift */,
+				11C2C1412A12A69D0026BA28 /* DrinkDetail.swift */,
+				113F2FF029FDA008002EA7C5 /* Assets.xcassets */,
+				11C2C1352A0459F30026BA28 /* Drink.swift */,
+				11C2C1382A045A3D0026BA28 /* menu.json */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		113F2FF629FDA008002EA7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113F2FF529FDA008002EA7C5 /* iTacos.app */,
+				113F2FFB29FDA008002EA7C5 /* iTacos.app */,
+				113F300229FDA009002EA7C5 /* Tests iOS.xctest */,
+				113F300E29FDA009002EA7C5 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113F2FFC29FDA008002EA7C5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				113F2FFD29FDA008002EA7C5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		113F300529FDA009002EA7C5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				113F300629FDA009002EA7C5 /* Tests_iOS.swift */,
+				113F300829FDA009002EA7C5 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		113F301129FDA009002EA7C5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				113F301229FDA009002EA7C5 /* Tests_macOS.swift */,
+				113F301429FDA009002EA7C5 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113F2FF429FDA008002EA7C5 /* iTacos (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113F301E29FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "iTacos (iOS)" */;
+			buildPhases = (
+				113F2FF129FDA008002EA7C5 /* Sources */,
+				113F2FF229FDA008002EA7C5 /* Frameworks */,
+				113F2FF329FDA008002EA7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTacos (iOS)";
+			productName = "iTacos (iOS)";
+			productReference = 113F2FF529FDA008002EA7C5 /* iTacos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		113F2FFA29FDA008002EA7C5 /* iTacos (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113F302129FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "iTacos (macOS)" */;
+			buildPhases = (
+				113F2FF729FDA008002EA7C5 /* Sources */,
+				113F2FF829FDA008002EA7C5 /* Frameworks */,
+				113F2FF929FDA008002EA7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTacos (macOS)";
+			productName = "iTacos (macOS)";
+			productReference = 113F2FFB29FDA008002EA7C5 /* iTacos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		113F300129FDA009002EA7C5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113F302429FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				113F2FFE29FDA009002EA7C5 /* Sources */,
+				113F2FFF29FDA009002EA7C5 /* Frameworks */,
+				113F300029FDA009002EA7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113F300429FDA009002EA7C5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 113F300229FDA009002EA7C5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		113F300D29FDA009002EA7C5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113F302729FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				113F300A29FDA009002EA7C5 /* Sources */,
+				113F300B29FDA009002EA7C5 /* Frameworks */,
+				113F300C29FDA009002EA7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113F301029FDA009002EA7C5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 113F300E29FDA009002EA7C5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113F2FE929FDA007002EA7C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					113F2FF429FDA008002EA7C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					113F2FFA29FDA008002EA7C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					113F300129FDA009002EA7C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 113F2FF429FDA008002EA7C5;
+					};
+					113F300D29FDA009002EA7C5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 113F2FFA29FDA008002EA7C5;
+					};
+				};
+			};
+			buildConfigurationList = 113F2FEC29FDA007002EA7C5 /* Build configuration list for PBXProject "iTacos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113F2FE829FDA007002EA7C5;
+			productRefGroup = 113F2FF629FDA008002EA7C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113F2FF429FDA008002EA7C5 /* iTacos (iOS) */,
+				113F2FFA29FDA008002EA7C5 /* iTacos (macOS) */,
+				113F300129FDA009002EA7C5 /* Tests iOS */,
+				113F300D29FDA009002EA7C5 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113F2FF329FDA008002EA7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C2C1392A045A3D0026BA28 /* menu.json in Resources */,
+				113F301A29FDA009002EA7C5 /* Assets.xcassets in Resources */,
+				113F302B29FDA2C3002EA7C5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F2FF929FDA008002EA7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C2C13A2A045A3D0026BA28 /* menu.json in Resources */,
+				113F301B29FDA009002EA7C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F300029FDA009002EA7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F300C29FDA009002EA7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113F2FF129FDA008002EA7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C2C1332A04597B0026BA28 /* testtest.swift in Sources */,
+				11C2C1452A12A7130026BA28 /* DrinkItem.swift in Sources */,
+				11C2C13C2A12A5080026BA28 /* DrinkRow.swift in Sources */,
+				113F301829FDA009002EA7C5 /* ContentView.swift in Sources */,
+				11C2C12D2A04548D0026BA28 /* Home.swift in Sources */,
+				11C2C1362A0459F30026BA28 /* Drink.swift in Sources */,
+				113F301629FDA009002EA7C5 /* iTacosApp.swift in Sources */,
+				11C2C1482A12A79C0026BA28 /* Data.swift in Sources */,
+				11C2C1422A12A69D0026BA28 /* DrinkDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F2FF729FDA008002EA7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C2C1342A04597B0026BA28 /* testtest.swift in Sources */,
+				11C2C1462A12A7130026BA28 /* DrinkItem.swift in Sources */,
+				11C2C13D2A12A5080026BA28 /* DrinkRow.swift in Sources */,
+				113F301929FDA009002EA7C5 /* ContentView.swift in Sources */,
+				11C2C12E2A04548D0026BA28 /* Home.swift in Sources */,
+				11C2C1372A0459F30026BA28 /* Drink.swift in Sources */,
+				113F301729FDA009002EA7C5 /* iTacosApp.swift in Sources */,
+				11C2C1492A12A79C0026BA28 /* Data.swift in Sources */,
+				11C2C1432A12A69D0026BA28 /* DrinkDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F2FFE29FDA009002EA7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113F300929FDA009002EA7C5 /* Tests_iOSLaunchTests.swift in Sources */,
+				113F300729FDA009002EA7C5 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F300A29FDA009002EA7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113F301529FDA009002EA7C5 /* Tests_macOSLaunchTests.swift in Sources */,
+				113F301329FDA009002EA7C5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113F300429FDA009002EA7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113F2FF429FDA008002EA7C5 /* iTacos (iOS) */;
+			targetProxy = 113F300329FDA009002EA7C5 /* PBXContainerItemProxy */;
+		};
+		113F301029FDA009002EA7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113F2FFA29FDA008002EA7C5 /* iTacos (macOS) */;
+			targetProxy = 113F300F29FDA009002EA7C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		113F301C29FDA009002EA7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		113F301D29FDA009002EA7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		113F301F29FDA009002EA7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.collective.iTacos;
+				PRODUCT_NAME = iTacos;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113F302029FDA009002EA7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.collective.iTacos;
+				PRODUCT_NAME = iTacos;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113F302229FDA009002EA7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.collective.iTacos;
+				PRODUCT_NAME = iTacos;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		113F302329FDA009002EA7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.collective.iTacos;
+				PRODUCT_NAME = iTacos;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		113F302529FDA009002EA7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.collective.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iTacos (iOS)";
+			};
+			name = Debug;
+		};
+		113F302629FDA009002EA7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.collective.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iTacos (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113F302829FDA009002EA7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.collective.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "iTacos (macOS)";
+			};
+			name = Debug;
+		};
+		113F302929FDA009002EA7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4WHP4HFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.collective.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "iTacos (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113F2FEC29FDA007002EA7C5 /* Build configuration list for PBXProject "iTacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F301C29FDA009002EA7C5 /* Debug */,
+				113F301D29FDA009002EA7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113F301E29FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "iTacos (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F301F29FDA009002EA7C5 /* Debug */,
+				113F302029FDA009002EA7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113F302129FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "iTacos (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F302229FDA009002EA7C5 /* Debug */,
+				113F302329FDA009002EA7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113F302429FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F302529FDA009002EA7C5 /* Debug */,
+				113F302629FDA009002EA7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113F302729FDA009002EA7C5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F302829FDA009002EA7C5 /* Debug */,
+				113F302929FDA009002EA7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113F2FE929FDA007002EA7C5 /* Project object */;
+}

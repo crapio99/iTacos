@@ -1,0 +1,151 @@
+[
+    {
+        "id":1,
+        "name":"Coca-Cola",
+        "imageName":"cocacola",
+        "description":"Price: $2.00\nIce cold Coca-Cola",
+        "category":"drinks"
+    },
+    {
+        "id":2,
+        "name":"NESQUIK",
+        "imageName":"NESQUIK",
+        "description":"Juicy NESQUIK for any age",
+        "category":"drinks"
+    },
+    {
+        "id":3,
+        "name":"Licuado De Fresa",
+        "imageName":"LICUADOFRESA",
+        "description":"Price: $3:00 \n Refresshing tasy shake.",
+        "category":"drinks"
+    },
+    {
+        "id":4,
+        "name":"Energy Drinks",
+        "imageName":"ENERGYDRINKS",
+        "description":"Price: $5:00 \n Energize your day!",
+        "category":"drinks"
+    },
+    {
+        "id":5,
+        "name":"Lemon Margarita",
+        "imageName":"MARGARITALEMON",
+        "description":"Price: $8:00 \n Cold homemade Margarita Lemonade ",
+        "category":"drinks"
+    },
+    {
+        "id":6,
+        "name":"Pina Colada",
+        "imageName":"PINACOLADA",
+        "description":"Price: $9:00 \n Pina Colada made with  ",
+        "category":"drinks"
+    },
+    {
+        "id":7,
+        "name":"Strawberry Lemonade",
+        "imageName":"strawberrylemonade",
+        "description":"Price: $9:00 \n Pina Colada made with  ",
+        "category":"drinks"
+    },
+    {
+        "id":8,
+        "name":"3 Street Taco Plate",
+        "imageName":"3streettacoplate",
+        "description":"Price: 11.00 \n 3 corn tortilla tacos served with onions, cilantro and your choice of chicken, al pastor, asada, carnitas or ground beef. Served with rice and beans on the side.  ",
+        "category":"tacos"
+    },
+    {
+        "id":9,
+        "name":"5 Street Tacos Birria",
+        "imageName":"5StreetTacosBirria",
+        "description":"Price: 12.00 \n 5 street tacos served with birria (shredded beef), onions, cilantro and consome.",
+        "category":"tacos"
+    },
+    {
+        "id":10,
+        "name":"3 Big Tacos de Birria",
+        "imageName":"3BigTacosdeBirria",
+        "description":"Price: 13.00 \n 3 big tacos with birria (shredded beef) served mozzarella cheese, onions, cilantro , fried onions, fried chile jalapeño and consome (soup).",
+        "category":"tacos"
+    },
+    {
+        "id":11,
+        "name":"4 Street Tacos",
+        "imageName":"4streettacos",
+        "description":"Price: 10.00 \n 3 big tacos with Your Choice of meat served mozzarella cheese, fried .",
+        "category":"tacos"
+    },
+    {
+        "id":12,
+        "name":"Tacos Al Carbon",
+        "imageName":"TACOSALCARBON",
+        "description":"Price: 22.00 \n Three Skirt steak tacos cooked with diced tomatoes, onions, and cilantro. The tortillas are dipped in our home made red sauce and topped with parmesan cheese, and avocado. Served with rice, and refried beans",
+        "category":"tacos"
+    },
+    {
+        "id":13,
+        "name":"Wet Chile Verde Burrito",
+        "imageName":"WETBURRITOCHILEVERDE",
+        "description":"Price: 24.00 \n Verde: A flour tortilla filled with pork, rice, and whole pinto beans (All wrapped in the flour tortilla). Covered in Chile Verde sauce and mozzarella cheese. Garnished with diced tomatoes, onions and cilantro. Served with sour cream, guacamole and lettuce.",
+        "category":"burrito"
+    },
+    {
+        "id":14,
+        "name":"Breakfast Burrito",
+        "imageName":"breakfastburrito",
+        "description":"Price: 11.50 \n A flour tortilla filled with your choice of chorizo or ham, eggs, whole pinto beans abd cheese.",
+        "category":"burrito"
+    },
+    {
+        "id":15,
+        "name":"Regular Burrito",
+        "imageName":"REGULARBURRITO",
+        "description":"Price: 9.50 \n A flour tortilla filled with your choice of meat, rice, whole pinto beans, diced tomatoes, onions, and cilantro. (EVERYTHING is wrapped in the flour tortilla, and wrapped up in foil)",
+        "category":"burrito"
+    },
+    {
+        "id":16,
+        "name":"Wet Veggie Burrito",
+        "imageName":"wetveggieburrito",
+        "description":"Price: 9.50 \n Whole wheat tortilla filled with sautéed zucchini, carrots, bell peppers, onions, mushrooms, rice, and whole pinto beans (All wrapped in the flour tortilla). Covered in our home made red sauce, then topped with melted cheddar jack cheese, cilantro, onion and tomato. Served with sour cream, guacamole, and lettuce.",
+        "category":"burrito"
+    },
+    {
+        "id":17,
+        "name":"Churros",
+        "imageName":"CHURROS",
+        "description":"Price: 4.25 \n Delicious sweet churros!",
+        "category":"dessert"
+    },
+    {
+        "id":18,
+        "name":"Mangonada",
+        "imageName":"MANGONADA",
+        "description":"Price: 5.00 \n Refreshing sweet treat for after a great dinner!",
+        "category":"dessert"
+    },
+    {
+        "id":19,
+        "name":"Tostilocos",
+        "imageName":"TOSTILOCOS",
+        "description":"Price: 3.50 \n Tasty crunchy snack",
+        "category":"dessert"
+    },
+    {
+        "id":20,
+        "name":"Flan",
+        "imageName":"FLAN",
+        "description":"Price: 2.75 \n Homemade vanilla flan with whip cream and a cherry on top",
+        "category":"dessert"
+    },
+    {
+        "id":21,
+        "name":"Cheesecake",
+        "imageName":"CHEESECAKE",
+        "description":"Price: 3.75 \n Homemade cheesecake topped with whip cream and a cherry on top",
+        "category":"dessert"
+    }
+]
+
+ 
