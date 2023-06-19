@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.blue.ignoresSafeArea()
+            Text("iTacos").foregroundColor(.white).font(.system(size: 30))
+        }
+        
     }
 }
 

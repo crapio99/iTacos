@@ -11,7 +11,11 @@ import SwiftUI
 struct iTacosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //testtest()
+            SplashScreenView()
+           
         }
+        
+        
     }
 }

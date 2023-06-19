@@ -34,6 +34,10 @@
 		11C2C1462A12A7130026BA28 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1442A12A7130026BA28 /* DrinkItem.swift */; };
 		11C2C1482A12A79C0026BA28 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1472A12A79C0026BA28 /* Data.swift */; };
 		11C2C1492A12A79C0026BA28 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C1472A12A79C0026BA28 /* Data.swift */; };
+		11C2C14B2A3F97B10026BA28 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C14A2A3F97B10026BA28 /* SplashScreenView.swift */; };
+		11C2C14C2A3F97B10026BA28 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C14A2A3F97B10026BA28 /* SplashScreenView.swift */; };
+		11C2C14E2A3F987E0026BA28 /* iTacos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C14D2A3F987E0026BA28 /* iTacos.swift */; };
+		11C2C14F2A3F987E0026BA28 /* iTacos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2C14D2A3F987E0026BA28 /* iTacos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,8 @@
 		11C2C1412A12A69D0026BA28 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		11C2C1442A12A7130026BA28 /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 		11C2C1472A12A79C0026BA28 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		11C2C14A2A3F97B10026BA28 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		11C2C14D2A3F987E0026BA28 /* iTacos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTacos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +132,9 @@
 				113F302A29FDA2C3002EA7C5 /* GoogleService-Info.plist */,
 				113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */,
 				113F2FEF29FDA008002EA7C5 /* ContentView.swift */,
+				11C2C14A2A3F97B10026BA28 /* SplashScreenView.swift */,
 				11C2C12C2A04548D0026BA28 /* Home.swift */,
+				11C2C14D2A3F987E0026BA28 /* iTacos.swift */,
 				11C2C1322A04597B0026BA28 /* testtest.swift */,
 				11C2C13B2A12A5080026BA28 /* DrinkRow.swift */,
 				11C2C1472A12A79C0026BA28 /* Data.swift */,
@@ -345,7 +353,9 @@
 				11C2C1362A0459F30026BA28 /* Drink.swift in Sources */,
 				113F301629FDA009002EA7C5 /* iTacosApp.swift in Sources */,
 				11C2C1482A12A79C0026BA28 /* Data.swift in Sources */,
+				11C2C14B2A3F97B10026BA28 /* SplashScreenView.swift in Sources */,
 				11C2C1422A12A69D0026BA28 /* DrinkDetail.swift in Sources */,
+				11C2C14E2A3F987E0026BA28 /* iTacos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +371,9 @@
 				11C2C1372A0459F30026BA28 /* Drink.swift in Sources */,
 				113F301729FDA009002EA7C5 /* iTacosApp.swift in Sources */,
 				11C2C1492A12A79C0026BA28 /* Data.swift in Sources */,
+				11C2C14C2A3F97B10026BA28 /* SplashScreenView.swift in Sources */,
 				11C2C1432A12A69D0026BA28 /* DrinkDetail.swift in Sources */,
+				11C2C14F2A3F987E0026BA28 /* iTacos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -503,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
