@@ -130,19 +130,19 @@
 			isa = PBXGroup;
 			children = (
 				113F302A29FDA2C3002EA7C5 /* GoogleService-Info.plist */,
-				113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */,
 				113F2FEF29FDA008002EA7C5 /* ContentView.swift */,
-				11C2C14A2A3F97B10026BA28 /* SplashScreenView.swift */,
 				11C2C12C2A04548D0026BA28 /* Home.swift */,
 				11C2C14D2A3F987E0026BA28 /* iTacos.swift */,
 				11C2C1322A04597B0026BA28 /* testtest.swift */,
 				11C2C13B2A12A5080026BA28 /* DrinkRow.swift */,
-				11C2C1472A12A79C0026BA28 /* Data.swift */,
-				11C2C1442A12A7130026BA28 /* DrinkItem.swift */,
 				11C2C1412A12A69D0026BA28 /* DrinkDetail.swift */,
-				113F2FF029FDA008002EA7C5 /* Assets.xcassets */,
+				11C2C1442A12A7130026BA28 /* DrinkItem.swift */,
 				11C2C1352A0459F30026BA28 /* Drink.swift */,
+				11C2C1472A12A79C0026BA28 /* Data.swift */,
 				11C2C1382A045A3D0026BA28 /* menu.json */,
+				11C2C14A2A3F97B10026BA28 /* SplashScreenView.swift */,
+				113F2FEE29FDA008002EA7C5 /* iTacosApp.swift */,
+				113F2FF029FDA008002EA7C5 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";

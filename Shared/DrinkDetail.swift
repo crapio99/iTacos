@@ -54,7 +54,7 @@ struct DrinkDetail: View {
     struct OrderButton : View {
     var body: some View {
         Button(action: {}) {
-            Text("Ordene Ahora")
+            Text("Order Now")
         }.frame(width: 200, height: 50).foregroundColor(.white).font(.headline)
         .cornerRadius(10)
         .background(Color.green)
